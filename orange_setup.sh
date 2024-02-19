@@ -54,7 +54,7 @@ echo 'Setup .bash_aliases.'
 echo '**************************************'
 cd ..
 #wget https://gist.githubusercontent.com/Frisenbrink/e9543de27e49a38bd37c23f2f8afff6b/raw/cf3b7efe088f5ed18d2e7357489fda9b8dbfdfbc/.bash_aliases
-sudo mv .bash_aliases ~/.bash_aliases
+sudo mv .bash_aliases /home/$USER/.bash_aliases
 echo '**************************************'
 echo 'Download motd.'
 echo '**************************************'
