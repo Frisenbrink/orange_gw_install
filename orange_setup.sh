@@ -62,6 +62,10 @@ echo '**************************************'
 sudo mv motd /etc/motd
 echo 'Cleanup files.'
 echo '**************************************'
+echo 'Change permisssion of key'
+echo '**************************************'
+sudo chmod 644 /greengrass/v2/privKey.key
+echo '**************************************'
 echo 'Anura Gateway setup done!'
 echo '**************************************'
 exit
